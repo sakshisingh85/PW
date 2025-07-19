@@ -1,4 +1,4 @@
-# 🔗 Link Shortener App
+# 🔗 Link Shortener Website Using Reactjs
 
 A modern, beautiful URL shortening application built with React. Transform your long URLs into compact, shareable links with a sleek and responsive design.
 
