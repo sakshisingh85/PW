@@ -107,7 +107,7 @@ function App() {
             <div className="link-icon">🔗</div>
             <h1>LinkShort</h1>
           </div>
-          <p className="tagline">Shorten your URLs instantly and beautifully</p>
+          <p className="tagline">The Smarter Way To Shrink Your Links</p>
         </div>
 
         {/* URL Input Section */}
@@ -118,7 +118,7 @@ function App() {
               value={longUrl}
               onChange={(e) => setLongUrl(e.target.value)}
               placeholder="Enter your long URL here (e.g., https://example.com/very/long/path)"
-              className="url-input"
+              className="url-input url-input-white"
               disabled={isLoading}
             />
             <button 
@@ -142,7 +142,7 @@ function App() {
                 type="text"
                 value={shortUrl}
                 readOnly
-                className="short-url-input"
+                className="short-url-input short-url-input-strong"
               />
               <button 
                 onClick={() => copyToClipboard(shortUrl)}
